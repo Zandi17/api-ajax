@@ -20,6 +20,8 @@ $(function() {
         doShow ? $status.fadeIn(10, "linear") : $status.fadeOut(4000, "linear");
     };
     
+
+    
     var addSong = function (event) {
         event.preventDefault();
         event.stopImmediatePropagation();
